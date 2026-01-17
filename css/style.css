@@ -473,8 +473,13 @@ header {
 
   /* Responsive Hero */
   .hero-title {
-    font-size: 3rem; /* Fallback */
-    font-size: clamp(3rem, 10vw, 4.5rem); /* Smaller on mobile */
+    font-size: 4rem; /* Fallback */
+    font-size: clamp(4rem, 12vw, 6rem); /* Larger on mobile */
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+    letter-spacing: 0.2em;
   }
 
   /* Responsive Stats */
@@ -542,6 +547,10 @@ header {
   }
 
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.875rem;
   }
 }
